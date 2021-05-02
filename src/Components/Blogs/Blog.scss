@@ -1,0 +1,46 @@
+.blog-Page{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    @media screen and (max-width: 1080px){
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+    }
+    .blogs{
+        background-color:#83ada1 ;
+        width: 100%;
+        padding: 1rem;
+        overflow: hidden;
+        border-radius: 5px;
+        .blogs-content{
+            overflow: hidden;
+            padding-bottom: 1rem;
+            img{
+                width: 100%;
+                transition: all .2s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                padding-bottom: 2rem;
+            }
+            .blogs-link{
+                color: black;
+                font-family: inherit;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: 700;
+                padding-bottom: 2rem;
+                transition: all .4s ease-in-out;
+                &:hover{
+                    color: #03cdff;
+                }
+            }
+        }
+    }
+}
+
+.b-title{
+    margin-bottom: 4rem;
+}

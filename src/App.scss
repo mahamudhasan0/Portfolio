@@ -1,0 +1,31 @@
+@import './Style/layout.scss';
+@import './Components/Navbar/Navbar.scss';
+@import './Components/Tittle/Tittle.scss';
+@import './Components/About/About.scss';
+@import './Components/Skills/Skill.scss';
+@import './Components/Blogs/Blog.scss';
+@import './Components//Contact/Contact.scss';
+@import './Components/Projects/Project.scss';
+@import '././Style/Home.scss';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #a4acc4;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2rem;
+}
+
+span{
+    color: turquoise;
+}
+@media screen and (max-width:411px){
+    html{
+        font-size: 75%;
+    }
+}
+
