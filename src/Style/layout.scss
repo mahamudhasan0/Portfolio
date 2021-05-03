@@ -26,7 +26,6 @@
     .main-container{
         width: 84%;
         margin-left: 16%;
-        background-color: #072e24;
         min-height: 100vh;
         display: grid;
         position: relative;
@@ -39,10 +38,10 @@
                 margin: 3rem 10rem;
             }
             @media screen and (max-width: 1400px){
-                margin: 3rem 10rem;
+                margin: 3rem ;
             }
             @media screen and (max-width: 710px){
-                margin: 2rem 3rem;
+                margin: 2rem ;
             }
         }
         @media screen and (max-width: 1000px){

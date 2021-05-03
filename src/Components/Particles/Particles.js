@@ -2,7 +2,7 @@ import React from 'react'
 import Particles from 'react-particles-js'
 import './Particles.css'
 
-function ParticlesJs() {
+function Particle() {
     return (
         
              <div className='particles'>
@@ -67,4 +67,4 @@ function ParticlesJs() {
     );
 };
 
-export default ParticlesJs;
+export default Particle;
